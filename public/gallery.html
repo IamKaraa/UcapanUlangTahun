@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Foto 📸</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <main class="container">
+    <div class="topbar">
+      <a class="back-link" href="/hub.html">← Kembali ke menu</a>
+    </div>
+
+    <section class="card fade-in">
+      <div class="badge">📸 Kenangan</div>
+      <h1 class="page-title">Klik fotonya satu per satu</h1>
+      <p class="page-text">
+        Di desktop cerita akan muncul di panel samping kanan. Di HP akan muncul tepat di bawah foto yang kamu klik.
+      </p>
+
+      <div class="gallery-layout space-top">
+        <div id="galleryGrid" class="gallery-grid"></div>
+
+        <aside id="photoDetailDesktop" class="card detail-panel hidden"></aside>
+      </div>
+
+      <div class="actions space-top">
+        <button id="finishGalleryBtn" class="btn" disabled>Lanjut ke Musik</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="/js/progress.js"></script>
+  <script src="/js/gallery.js"></script>
+</body>
+</html>

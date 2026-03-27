@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Kejutan 🎁</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <main class="container">
+    <div class="topbar fade-in">
+      <div>
+        <div class="badge">Hai Deydey</div>
+        <h1 class="page-title">Buka sesuai urutan dan selesaikan misinya.</h1>
+        <div id="progressText" class="progress-chip">0/5 bagian terbuka</div>
+      </div>
+      <div class="actions">
+        <button id="resetJourneyBtn" class="btn ghost" type="button">Ulang</button>
+        <button id="logoutBtn" class="btn secondary" type="button">Keluar</button>
+      </div>
+    </div>
+
+    <section class="hub-grid fade-in delay-1">
+      <a id="btnWishes" class="link-btn" href="/wishes.html">
+        <strong>Untuk Bidadari Kecil Bima</strong>
+        <span>Misi : Baca sampai tuntas.</span>
+      </a>
+
+      <a id="btnGallery" class="link-btn locked" href="#">
+        <strong>Kenagan Indah<span class="lock-icon">🔒</span></strong>
+        <span>Misi : Kenang selamanya.</span>
+      </a>
+
+      <a id="btnMusic" class="link-btn locked" href="#">
+        <strong>Lantunan Kita<span class="lock-icon">🔒</span></strong>
+        <span>Misi : Dengarkan dengan serius.</span>
+      </a>
+
+      <a id="btnQuiz" class="link-btn locked" href="#">
+        <strong>Tiba Tiba Kuis<span class="lock-icon">🔒</span></strong>
+        <span>Misi : Jawab harus benar, salah = hukuman</span>
+      </a>
+
+      <a id="btnClosing" class="link-btn locked" href="#">
+        <strong>Akhir?<span class="lock-icon">🔒</span></strong>
+        <span>Apakah ini akan menjadi akhir?</span>
+      </a>
+    </section>
+  </main>
+
+  <script src="/js/progress.js"></script>
+  <script src="/js/hub.js"></script>
+</body>
+</html>

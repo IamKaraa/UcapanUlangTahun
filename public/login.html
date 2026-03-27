@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masuk Dulu 💌</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="page-center">
+  <main class="card center-card fade-in">
+    <div class="badge">🔐 Halaman Rahasia</div>
+    <h1 class="page-title">Masukin password dulu yaa</h1>
+    <p class="page-text">Passwordnya hari spesial kita berdua</p>
+
+    <form id="loginForm" class="form-stack space-top">
+      <input
+        id="password"
+        class="input"
+        type="password"
+        name="password"
+        placeholder="Masukkan kata sandi"
+        autocomplete="off"
+        required
+      >
+      <button class="btn" type="submit">Masuk</button>
+      <p id="errorText" class="error-text"></p>
+    </form>
+  </main>
+
+  <script src="/js/progress.js"></script>
+  <script src="/js/auth.js"></script>
+</body>
+</html>

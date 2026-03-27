@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musik Pilihan 🎵</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <main class="container">
+    <div class="topbar">
+      <a class="back-link" href="/hub.html">← Kembali ke menu</a>
+    </div>
+
+    <section class="card fade-in">
+      <div class="badge">🎵 Playlist Kecil</div>
+      <h1 class="page-title">Putar lagu sesuai urutan</h1>
+      <p class="page-text">Saat lagu diputar, akan muncul kisah singkat tentang maknanya.</p>
+
+      <div class="music-layout space-top">
+        <div id="playlist" class="playlist"></div>
+
+        <div class="card audio-card">
+          <p id="nowPlaying" class="now-playing">Belum ada lagu yang diputar.</p>
+          <audio id="audioPlayer" controls></audio>
+          <p id="songDescription" class="page-text">Pilih salah satu lagu untuk membaca cerita kecil di balik lagu itu.</p>
+        </div>
+      </div>
+
+      <div class="actions space-top">
+        <button id="finishMusicBtn" class="btn" disabled>Lanjut ke Pertanyaan</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="/js/progress.js"></script>
+  <script src="/js/music.js"></script>
+</body>
+</html>

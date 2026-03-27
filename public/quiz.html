@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pertanyaan Kecil 💭</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <main class="container">
+    <div class="topbar">
+      <a class="back-link" href="/hub.html">← Kembali ke menu</a>
+    </div>
+
+    <section class="card fade-in">
+      <div class="badge">💭 Mini Quiz</div>
+      <h1 class="page-title">Jawabnya Harus Bener</h1>
+      <p class="page-text">1 salah = 1 hukuman</p>
+
+      <form id="quizForm" class="space-top">
+        <div id="quizContainer" class="quiz-list"></div>
+
+        <div class="actions space-top">
+          <button class="btn" type="submit">Kirim Jawaban</button>
+        </div>
+      </form>
+
+      <p id="quizResult" class="success-text space-top"></p>
+    </section>
+  </main>
+
+  <script src="/js/progress.js"></script>
+  <script src="/js/quiz.js"></script>
+</body>
+</html>
